@@ -1,0 +1,220 @@
+/*Helpline*/
+
+.col-help{
+    background-color:#006E6D;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
+}
+
+/*Navigation*/
+
+.navigation{
+    background-color: white;
+   
+}
+
+
+.statistics{
+    color: red;
+    font-weight: bolder;
+}
+
+
+.stat-dropdown{
+    width: 210px;   
+}
+
+.stat-menu:hover{
+    background-color: #88B04B;
+    color: white;
+    border-bottom: 1px solid #006E6D;   
+}
+
+.menu{
+    color: #bbb;
+}
+
+
+/*------------Breadcrumb---------------*/
+
+.bread{
+    text-align: center;
+    margin: 5px;
+  }
+  
+  .bread-item{
+      display: inline-block;
+      font-size: 17px;
+  }
+      
+  
+  .bread-item:not(:last-of-type)::after{
+      content: '\203a';
+      margin: 0 5px;
+  }
+  
+  .bread-link{
+      color: #bbb;
+  }
+  
+  .bread-link-active{
+      color: #32CD32;
+      font-weight: bold;
+  }
+  
+
+/*------------Pakistan Photo---------------*/
+
+
+
+.hero-img{
+    background-image: linear-gradient(rgba(44, 42, 42, 0.5),rgba(138, 134, 134, 0.5)), 
+    url(photo/2.jpg);
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    position: relative;    
+    vertical-align: middle;
+}
+
+.hero-img .content{
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 60%;
+  padding: 55px;
+}
+
+
+/*Pakistan Btn-col----------*/
+
+.btn-col{
+    margin-top: 40px;
+}
+
+.btn-g{
+    width: 105px;
+    
+}
+
+/*Dashboard dash-col----------*/
+
+
+
+
+.dash-col{
+    margin-top: 40px;
+    background-color:#009B77;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+
+/*Dashboard block-dash----------*/
+
+.block-dash1{
+    
+    background-color: #F0EDE5;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    color: dodgerblue;
+    margin: 47px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+
+}
+
+.dash-inside1{
+    background-color:#F0FFFF;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.block-dash2{
+    
+    background-color: #ECDB54;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 20px;
+    color: orange;
+    margin: 47px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.dash-inside2{
+    background-color: #FFD700;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.block-dash3{
+
+    background-color: #FF6F61;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 20px;
+    color: red;
+    margin: 47px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.dash-inside3{
+    background-color: #FA9A85;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.block-dash4{
+    
+    background-color: #009B77;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 20px;
+    color: green;
+    margin: 47px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.dash-inside4{
+    background-color: #20B2AA;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+/*---------------------Footer----------*/
+
+
+.footer{
+    margin-top: 40px;
+    background-color: #ddd;
+    color: #474e5d;
+}
+
+.col-footer{
+    padding: 40px;
+    
+}
+
+.col-footer1{
+    padding: 40px; 
+}
+
+.col-footer2{
+    
+    padding: 40px;
+}

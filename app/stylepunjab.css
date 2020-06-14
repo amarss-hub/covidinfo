@@ -1,0 +1,541 @@
+/*Help*/
+
+.col-help{
+    background-color:#006E6D;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
+}
+
+/*Navigation*/
+
+.navigation{
+    background-color: white;
+   
+}
+
+
+.statistics{
+    color: red;
+    font-weight: bolder;
+}
+
+
+.stat-dropdown{
+    width: 210px;   
+}
+
+.stat-menu:hover{
+    background-color: #88B04B;
+    color: white;
+    border-bottom: 1px solid #006E6D;   
+}
+
+.menu{
+    color: #bbb;
+}
+
+
+/*------------Isalamabad Photo---------------*/
+
+.hero-img{
+    background-image: linear-gradient(rgba(44, 42, 42, 0.5),rgba(138, 134, 134, 0.5)), 
+    url(photo/2.jpg);
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    position: relative;    
+    vertical-align: middle;
+}
+
+.hero-img .content{
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 60%;
+  padding: 60px;
+}
+
+
+
+/*-----------------Col-Table---------*/
+
+.col-table{
+    margin-top: 30px;
+    margin-bottom: 60px;
+    background-color: #ddd;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+
+/*---------------------Footer----------*/
+
+
+.footer{
+    margin-top: 40px;
+    background-color: #ddd;
+    color: #474e5d;
+}
+
+.col-footer{
+    padding: 40px;
+    
+}
+
+.col-footer1{
+    padding: 40px; 
+}
+
+.col-footer2{
+    
+    padding: 40px;
+}
+
+
+
+/*---------Col-Table--------*/
+
+
+
+.col-tab{
+    text-align: center;
+    border-collapse: separate;
+    border-spacing: 20px 0px;
+    
+    
+    
+    
+}
+
+#th1{
+    background-color: rgb(146, 191, 247);
+    color: blue;
+    
+    
+    
+}
+
+#th2{
+    background-color: #ECDB54;
+    color: orange;
+}   
+
+#th3{
+    background-color: #FF6F61;
+    color: red;
+}
+
+#th4{
+    background-color:#20B2AA;
+    color: green;
+}
+
+#td1{
+    background-color: rgb(146, 191, 247);
+    color: #485167;
+    
+}
+
+#td2{
+    background-color: #ECDB54;
+    color: #485167;
+    
+}
+
+#td3{
+    background-color: #FF6F61;
+    color: #485167;
+}
+
+#td4{
+    background-color:#20B2AA;
+    color: #485167;
+}
+
+
+
+/*----------------Precaution------------*/
+
+
+#h4-pre{
+    color: rgba(28, 30, 156, 0.507);
+    text-shadow: 2px 2px 5px grey;
+    text-align: center;
+    padding-top: 40px;
+    font-weight: bolder;
+}
+
+
+
+
+.col-precaution{
+    margin: 40px;
+    color: white;
+    background-color: #FF6F61;   
+    border-radius: 50px 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.col-precaution1{
+    margin: 40px;
+    color: white;
+    background-color: #00BFFF;   
+    border-radius: 50px 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+#h1-pre{
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+   
+}
+
+
+.text-block{
+  position: absolute;
+  bottom: 20px;
+  right: 10px;
+  
+  top: 70px;
+  color: white;
+}
+
+.text-block1{
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+    top: 190px;
+    color: white;  
+   
+}
+
+.text-block2{
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+    top: 320px;
+    color: white;  
+   
+}
+
+.text-block3{
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+    top: 440px;
+    color: white;  
+   
+}
+
+
+/*------FIGHT CORONA VIRUS BOXES----*/
+
+.col-fight{
+    
+    margin: 45px;
+    background-color: #EADEDB;
+    text-align: center;
+    padding: 20px;
+    border-radius: 50px 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: rgb(67, 104, 136);
+}
+
+#img-fight{
+    padding-bottom: 10px;
+    border-radius: 50px 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+/*How to prepare staying at home*/
+
+.col-head{
+    background-color: #009B77;
+    padding: 20px;
+    color: white;
+    font-weight: bolder;
+    border-radius: 50px 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    
+}
+
+.col-clean{
+    background-color: #45B8AC;
+    border-radius: 50px 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    color: black;
+    margin: 45px;
+
+}
+
+.col-head1{
+    background-color: #FF6F61;
+    padding: 20px;
+    color: white;
+    font-weight: bolder;
+    border-radius: 50px 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    
+}
+
+.col-clean1{
+    background-color: #EC9787;
+    color: black;
+    margin: 45px;
+    border-radius: 50px 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+/*-----Food  Necessities*/
+
+
+.btn-display{
+    width: 100%;
+    border: none;
+    padding: 20px;
+    background-color: #2A4B7C;
+    color: #ddd;
+    font-size: 22px;
+    font-weight: bolder;
+
+}
+
+
+
+#h3-food{
+    padding-top: 20px;
+    text-shadow: 0px 2px 3px #3F69AA;
+}
+
+/*#h5-food:hover{
+    transition: all 0.6s ease-in-out 0s;
+    background-color: #555;
+    color: #ddd;
+    padding: 40px;
+}
+*/
+
+#h5-food{
+    padding-top: 10px;
+    
+}
+
+#p-food{
+    font-size: 17px;
+}
+
+#p-food:hover{
+    transition: all 0.6s ease-in-out 0s;
+    background-color: #555;
+    color: #ddd;
+    padding: 40px;
+}
+
+/*#p-food{
+    font-size: 17px;
+    
+    transition: background-color 2s;
+}
+
+#p-food:hover{
+    background-color: darkblue;
+    color: white;
+    font-size: 19px;
+    padding: 20px;    
+    transition-timing-function: ease-in;
+  
+}
+*/
+
+
+/*------COVID-19-------*/
+
+
+/*------How is the virus transmitted?----*/
+
+.virus-trans1{
+    margin-top: 40px; 
+}
+
+.virus-trans1 img{
+    border-radius: 60px 120px;
+    border: 8px solid #555;
+    padding: 20px;
+    
+}
+
+.virus-trans1 img:hover{
+    transition: all 0.6s ease-in-out 0s;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+}
+
+.virus-trans2{
+    margin-top: 40px;
+    padding: 20px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    line-height: 30px;
+    font-size: 18px;
+    
+}
+
+
+.virus-trans3{
+    margin-top: 40px;
+    padding: 20px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    line-height: 30px;
+    font-size: 18px;
+}
+
+
+.virus-trans4{
+    margin-top: 40px;
+}
+
+.virus-trans4 img{
+    border-radius: 60px 120px;
+    border: 8px solid #555;
+    padding: 20px;
+}
+
+.virus-trans4 img:hover{
+    transition: all 0.6s ease-in-out 0s;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+}
+
+
+
+
+.virus-trans5{
+    margin-top: 40px;
+}
+
+.virus-trans5 img{
+    border-radius: 60px 120px;
+    border: 8px solid #555;
+    padding: 20px;
+}
+
+.virus-trans5 img:hover{
+    transition: all 0.6s ease-in-out 0s;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+}
+
+.virus-trans6{
+    margin-top: 40px;
+    padding: 20px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    line-height: 30px;
+    font-size: 18px;
+}
+
+
+/*----Ways to prevent the disease---*/
+
+
+.col-prevent1{
+    margin-top: 40px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+}
+
+
+
+#h4-prevent{
+    color: rgba(28, 30, 156, 0.507);
+    text-shadow: 2px 2px 5px grey;
+    padding-top: 40px;
+    font-weight: bolder;
+}
+
+#h2-prevent{
+    font-weight: bolder;
+    padding-top: 20px;
+    padding-bottom: 20px;
+   
+}
+
+
+.col-prevent2{
+    margin-top: 40px;
+}
+
+
+
+.collapsible{
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    border: none;
+    width: 100%;
+    text-align: left;
+    outline: none;
+    font-size: 18px;
+
+}
+
+.active, .collapsible:hover{
+    background-color: #555;
+}
+
+.collapsible::after{
+    content: '\002B';
+    color: white;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.active::after{
+    content: '\2212';
+}
+
+.content{
+   padding: 0 18px;
+   max-height: 0;
+   overflow: hidden;
+   transition: max-height 0.2s ease-out;
+   background-color: #f1f1f1;
+
+}
+
+#h4-prevent2{
+    color: rgba(28, 30, 156, 0.507);
+    text-shadow: 2px 2px 5px grey;
+    padding-top: 40px;
+    font-weight: bolder;
+}
+
+#h2-prevent2{
+    font-weight: bolder;
+    padding-top: 20px;
+    padding-bottom: 20px;
+   
+}
+
+
+
+
+
+

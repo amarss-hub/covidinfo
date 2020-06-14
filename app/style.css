@@ -1,0 +1,506 @@
+.col-help{
+    background-color:#006E6D;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+
+/*--------NAV-----------*/
+
+
+.navigation{
+    background-color: white;
+   
+}
+
+
+.statistics{
+    color: red;
+    font-weight: bolder;
+}
+
+
+.stat-dropdown{
+    width: 210px;   
+}
+
+.stat-menu:hover{
+    background-color: #88B04B;
+    color: white;
+    border-bottom: 1px solid #006E6D;   
+}
+
+.menu{
+    color: #bbb;
+}
+
+
+/*-----------Hero Image---------*/
+
+.hero-image{
+    background-image: linear-gradient(rgba(19, 18, 18, 0.5),rgba(80, 79, 79, 0.5)), 
+    url(photo/hero.jpg);
+    height: 50%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-text{
+    
+    padding: 30px;
+    color: white;
+    
+}
+
+.hero-image p{
+    padding-right: 50%;
+    padding-top: 20px;
+    line-height: 30px;
+    padding-bottom: 20px;
+}
+
+.hero-text button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 10px 25px;
+    color: white;
+    background-color: #4CAF50;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.hero-text button:hover {
+    background-color: #555;
+    color: white;
+}
+
+
+/*-----CORONAVIRUS IN PAKISTAN--*/
+
+#h5-pak{
+    color: #2E4A62;
+    text-shadow: 2px 2px 5px grey;
+    font-weight: bolder;
+}
+
+#h4-pak{
+    color: #2E4A62;
+    text-shadow: 2px 2px 5px grey;
+    font-weight: bolder;
+}
+
+
+
+
+/*-----------Data Covid-19 (Table area)-----------*/
+
+.covid-19{
+    margin-top: 60px;
+}
+
+.covid-img{
+    position: absolute;
+    right: 50px;
+    top: 10px;
+    z-index: -1;
+}
+
+.counter-count{
+    font-size: 110px;
+    letter-spacing: 5px;
+    font-weight: bolder;
+    color: #2E4A62;
+}
+
+.btn{
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 10px 25px;
+    color: white;
+    background-color: #4CAF50;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+
+.data{
+    color: #9F9C99;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+#death{
+    color: red;
+    font-weight: bolder;
+    
+    font-size: 20px;
+}
+
+#recover{
+    font-weight: bolder;
+    font-size: 20px;
+    color: green;
+
+}
+
+/*--------Corona Virus SYMPTOMS----------*/
+
+.covid-symptoms{
+    text-align: center;
+    margin-top: 60px;
+}
+
+
+.symptom{
+    color: rgba(28, 30, 156, 0.507);
+    text-shadow: 2px 2px 5px grey;
+    font-size: 40px;
+}
+
+
+.col-symtom{
+    margin-top: 80px;
+}
+
+#border{
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: left;
+    color: #2E4A62;
+    text-shadow: 2px 2px 5px grey;
+    font-weight: bolder;
+}
+
+#cough{
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    z-index: -1;
+    width: 80px;
+}
+
+#short{
+    position: absolute;
+    right: 20px;
+    top: 115px;
+    z-index: -1;
+    width: 80px;
+}
+
+#map{
+    position: absolute;
+    top: 5px;
+    right: 0px;
+    width: 380px;
+
+}
+
+#fever{
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    z-index: -1;
+    width: 80px; 
+}
+
+#sore{
+    position: absolute;
+    right: 20px;
+    top: 115px;
+    z-index: -1;
+    width: 85px; 
+}
+
+
+/*----Precatuion--------*/
+
+.col-safety{
+    margin-top: 200px;
+    
+}
+
+#safety{
+    width: 290px;
+    height: 200px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 10px;
+    background-color: white;
+    padding: 10px;
+}
+
+#safety:hover{
+    transition: 2s;
+    opacity: 0.5;
+}
+
+
+
+/*---------COVID_19 Tracker-----------*/
+
+#tracker{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-weight: bolder;
+    color: #2E4A62;
+    text-shadow: 2px 2px 5px grey;
+    border-bottom: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+}
+
+#global{
+    color: #2E4A62;
+    text-shadow: 2px 2px 5px grey;
+    border-bottom: 1px solid #ddd;
+    border-left: 1px solid #ddd; 
+}
+
+#color1::before{
+    content: "\2022";
+    color: #EFC050;
+    font-weight: bolder;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+    font-size: 150%;
+}
+
+#color2::before{
+    content: "\2022";
+    color: MediumSeaGreen;
+    font-weight: bolder;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+    font-size: 150%;
+}
+
+#color3::before{
+    content: "\2022";
+    color: #9F9C99;
+    font-weight: bolder;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+    font-size: 150%;
+}
+
+
+.num{
+    background-color: rgb(250, 249, 249);
+    color: #bbb;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+#pre-safety{
+    color: #2E4A62;
+    text-shadow: 2px 2px 5px grey;
+    font-weight: bolder;
+    padding-bottom: 20px;   
+
+}
+
+#h2-safety{
+    color: #2E4A62;
+    text-shadow: 2px 2px 5px grey;
+    font-weight: bolder;
+}
+
+.list-safety{
+    font-size: 20px;
+    padding-top: 20px;
+    font-weight: bolder;
+}
+
+#myTable{
+    height: 100px;
+    overflow: auto;
+}
+
+.btn-sort{
+    border: none;
+    padding: 10px 24px;
+    margin-bottom: 20px;
+    border-radius: 16px;
+    border: 1px solid #ddd;
+    color: #bbb;
+    background-color: rgb(250, 249, 249);
+    transition: background-color 1s;
+    
+    
+}
+
+.btn-sort:hover{
+    border: 1px solid #EFC050;
+    border-radius: 6px;
+    color: #4CAF50;
+    background-color: #555;
+    
+
+
+}
+
+
+.tab-slide{
+    height: 250px;
+    overflow: auto;
+    display: block;
+    width: 100%;
+}
+
+#solider{
+    padding-top: 60px;
+    padding-bottom: 20px;
+    color: #2E4A62;
+    text-shadow: 2px 2px 5px grey;
+    font-weight: bolder;
+    border-bottom: 1px solid #ddd;
+
+}
+
+/*------------Slide Show------------*/
+
+#aware{
+    color: #2E4A62;
+    text-shadow: 2px 2px 5px grey;
+    font-weight: bolder;
+    padding-bottom: 10px;
+    padding-top: 30px;
+
+}
+
+#h1-myth{
+    color: #2E4A62;
+    text-shadow: 2px 2px 5px grey;
+    font-weight: bolder;
+}
+
+
+#h1-faq{
+    color: #2E4A62;
+    text-shadow: 2px 2px 5px grey;
+    font-weight: bolder;
+}
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+
+
+#covid-background{
+    background-color: white;
+    width: 80px;
+    border-radius: 20px;
+    
+}
+
+
+/*---------------------Footer----------*/
+
+
+.footer{
+    margin-top: 200px;
+    background-color: #ddd;
+    color: #474e5d;
+}
+
+.col-footer{
+    padding: 40px;
+    
+}
+
+.col-footer1{
+    padding: 40px; 
+}
+
+.col-footer2{
+    
+    padding: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------Punjab------------*/
+
+.bg-image{
+    background-image: url("photo/1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    
+}
+
+.bg-text{
+   
+   
+    color: white;
+    font-weight: bolder;
+    border: 6px solid #f1f1f1;
+    text-align: center;
+    padding: 60px;
+    
+}

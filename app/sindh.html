@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Sindh</title>
+  <meta charset="utf-8">
+  <script src="https://use.fontawesome.com/93b6d84441.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  
+  <link rel="stylesheet" type="text/css" href="sindh.css">
+  
+
+  <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
+  <script src="scriptpunjab.js"></script>
+
+</head>
+<body>
+
+   
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12 col-help">
+                <h6>Dial <b>1166</b> health helpline</h6>
+            </div>
+        </div>
+    </div>
+    
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+
+     
+    
+    <nav class="navbar navbar-expand-sm navigation">
+        <a class="navbar-brand" href="index.html">
+            <img src="logo.png" style="width: 240px;">
+        </a>
+
+
+        <!-- Toggler/collapsibe Button -->
+
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"><img src="bars.svg"></span>
+    </button>
+
+    
+
+
+
+    <!--Nav Link-->
+
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+
+        <ul class="navbar-nav">
+
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+              <span class="statistics">Statistics</span>
+            </a>
+
+            <!-- stat-dropdown -->
+            <!-- stat-menu-->
+            <div class="dropdown-menu stat-dropdown">
+              <a class="dropdown-item stat-menu" href="pak.html">Pakistan</a>
+                <a class="dropdown-item stat-menu" href="ict.html">ICT</a>
+                <a class="dropdown-item stat-menu" href="pun.html">Punjab</a>
+                <a class="dropdown-item stat-menu" href="sindh.html">Sindh</a>
+                <a class="dropdown-item stat-menu" href="kpk.html">KPK</a>
+                <a class="dropdown-item stat-menu" href="bal.html">Balochistan</a>
+                <a class="dropdown-item stat-menu" href="gb.html">Gilgit Baltistan</a>
+                <a class="dropdown-item stat-menu" href="ajk.html">AJK</a>
+            </div>
+          </li>
+
+
+          <!--menu-->
+          <li class="nav-item">
+            <a class="nav-link menu" href="covd.html">COVID-19</a>
+          </li>
+
+
+          <li class="nav-item">
+            <a class="nav-link menu" href="prevention.html">Prevention</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link menu" href="air.html">Air Travel</a>
+          </li>
+
+        <li class="nav-item">
+            <a class="nav-link menu" href="faq.html">FAQ</a>
+        </li>
+
+        <li class="nav-item">
+            <a class="nav-link menu" href="psm.html">Public Service Message</a>
+        </li>
+
+        </ul>
+    </div>
+
+
+
+</nav>
+
+
+
+</div>
+</div>
+</div>
+
+<!--Breadcrumb-->
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <ul class="bread">
+        <li class="bread-item">
+          <a href="index.html" class="bread-link">Home</a>
+        </li>
+
+        <li class="bread-item">
+          <a href="sindh.html" class="bread-link-active">Sindh</a>
+        </li>
+
+      </ul>
+    </div>
+  </div>
+</div>
+
+    <!--Blured Background-->
+
+
+    <div class="container-fluid">
+      <div class="row">
+          <div class="col-md-12 hero-img">
+
+
+            <div class="content">
+              <h1>Sindh</h1>
+              <p>
+                Graphical presentation of COVID-19 detail cases in Sindh. This
+                presenation shows a number of test performed by Sindh. Confirmed
+                cases, number of death and recoveries so far. 
+              </p>
+            </div>
+
+
+            </div>
+            </div>
+            </div>
+
+
+
+
+            <div class="container">
+              <div class="row">
+                <div class="col-md-4 col-table" style="margin-top: 60px; margin-bottom: 40px;">
+                  <h1 style="color: #6495ED; font-weight: bolder;">Confirmed Cases</h1>
+                  <h4 style="text-align: center; color: blue;">49,256</h4>
+                </div>
+
+                <div class="col-md-3 col-table" style="margin-top: 60px; margin-bottom: 40px;">
+                  <h1 style="color: red; font-weight: bolder; text-align: center;">Deaths</h1>
+                  <h4 style="text-align: center; color: firebrick;">793</h4>
+                </div>
+ 
+                <div class="col-md-4 col-table" style="margin-top: 60px; margin-bottom: 40px;">
+                  <h1 style="color: #32CD32; font-weight: bolder; text-align: center;">Recoveries</h1>
+                  <h4 style="text-align: center; color: green;">23,113</h4>
+                </div>
+              </div>
+            </div>
+
+
+
+
+
+
+
+            <div class="container">
+              <div class="row">
+                <div class="col-md-6">
+                  <canvas id="myChart" width="200" height="200"></canvas>
+                </div>
+
+                <div class="col-md-6">
+                  <canvas id="myChart1" width="200" height="200"></canvas>
+                </div>
+              </div>
+            </div>
+
+
+
+
+            <!--Footer-->
+
+
+<div class="container-fluid footer">
+  <div class="row">
+      <div class="col-md-4 col-footer">
+          <img src="logo.png" style="width: 240px;">
+          <p>
+              See the Realtime Pakistan and Worldwide COVID-19 situation!
+          </p>
+          
+          <a href="https://www.facebook.com/NHSRCOfficial">
+            <i class="fa fa-facebook-square fa-3x">&nbsp;</i>
+            </a>
+            <a href="https://twitter.com/nhsrcofficial">
+            <i class="fa fa-twitter-square fa-3x">&nbsp;</i>
+        </a>
+        <a href="https://www.youtube.com/nhsrcpk" style="color: #FF0000;">
+            <i class="fa fa-youtube fa-3x">&nbsp;</i>
+        </a>
+            <i class="fa fa-instagram fa-3x">&nbsp;</i>
+      </div>
+
+
+      <div class="col-md-4 col-footer1">
+          <ul style="list-style-type: none; padding: 0; margin: 0;">
+              <h5>NAVIGATE</h5>
+              <li><a href="index.html">HOME</a></li>
+                <li><a href="covd.html">COVID-19</a></li>
+                <li><a href="prevention.html">PREVENTION</a></li>
+                <li><a href="air.html">AIR TRAVEL</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="psm.html">PUBLIC SERVICE MESSAGE</a></li>
+              
+          </ul>
+      </div>
+
+      <div class="col-md-4 col-footer2">
+          <h5>CONTACTS</h5>
+          <p>Ministry of National Health Services<br />
+             Regulations & Coordination,<br />
+             3rd Floor Kohsar Block,<br />
+             Islamabad<br />
+             +92-51-9245746<br />
+             contact@nhsrc.gov.pk
+
+          </p>
+      
+      </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <script>
+              var ctx = document.getElementById('myChart').getContext('2d');
+              var myChart = new Chart(ctx, {
+                  type: 'bar',
+                  data: {
+                      labels: ['Confirmed Cases', 'Deaths', 'Recoveries'],
+                      datasets: [{
+                          label: 'Total COVID-19 Cases in Islamabad',
+                          data: [49256, 793, 23113],
+                          backgroundColor: [
+                              '#6495ED',
+                              'red',
+                              '#32CD32'
+                              
+                          ],
+                          borderColor: [
+                              'blue',
+                              '#DC143C',
+                              'green'
+                              
+                          ],
+                          borderWidth: 2
+                      }]
+                  },
+                  options: {
+                      scales: {
+                          yAxes: [{
+                              ticks: {
+                                  beginAtZero: true
+                              }
+                          }]
+                      }
+                  }
+              });
+
+
+
+
+              var ctx = document.getElementById('myChart1').getContext('2d');
+              var myChart1 = new Chart(ctx, {
+                  type: 'bar',
+                  data: {
+                      labels: ['Jun 7, 2020', 'Jun 8, 2020',
+                              'Jun 9, 2020', 'Jun 10, 2020',
+                              'Jun 11, 2020', 'Jun 12, 2020'],
+                      datasets: [{
+                          label: 'Total COVID-19 Test in Sindh',
+                          data: [8119, 8513, 6995, 9100, 10891, 11356],
+                          backgroundColor: [
+                              '#9ACD32',
+                              '#9ACD32',
+                              '#9ACD32',
+                              '#9ACD32',
+                              '#9ACD32',
+                              '#9ACD32'
+                              
+                          ],
+                          borderColor: [
+                              'green',
+                              'green',
+                              'green',
+                              'green',
+                              'green',
+                              'green'
+                              
+                          ],
+                          borderWidth: 1
+                      }]
+                  },
+                  options: {
+                      scales: {
+                          yAxes: [{
+                              ticks: {
+                                  beginAtZero: true
+                              }
+                          }]
+                      }
+                  }
+              });
+              </script>
+  
+
+</body>
+</html>

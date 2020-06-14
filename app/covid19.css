@@ -1,0 +1,279 @@
+/*Help*/
+
+.col-help{
+    background-color:#006E6D;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
+}
+
+/*Navigation*/
+
+.navigation{
+    background-color: white;
+   
+}
+
+
+.statistics{
+    color: red;
+    font-weight: bolder;
+}
+
+
+.stat-dropdown{
+    width: 210px;   
+}
+
+.stat-menu:hover{
+    background-color: #88B04B;
+    color: white;
+    border-bottom: 1px solid #006E6D;   
+}
+
+.menu{
+    color: #bbb;
+}
+
+/*------------Breadcrumb---------------*/
+
+.bread{
+    text-align: center;
+    margin: 5px;
+  }
+  
+  .bread-item{
+      display: inline-block;
+      font-size: 17px;
+  }
+      
+  
+  .bread-item:not(:last-of-type)::after{
+      content: '\203a';
+      margin: 0 5px;
+  }
+  
+  .bread-link{
+      color: #bbb;
+  }
+  
+  .bread-link-active{
+      color: #32CD32;
+      font-weight: bold;
+  }
+  
+
+
+/*------------Isalamabad Photo---------------*/
+
+.hero-img{
+    background-image: linear-gradient(rgba(44, 42, 42, 0.5),rgba(138, 134, 134, 0.5)), 
+    url(photo/2.jpg);
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    position: relative;    
+    vertical-align: middle;
+}
+
+.hero-img .content{
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 60%;
+  padding: 55px;
+  padding-top: 75px;
+}
+
+
+/*---------------------Footer----------*/
+
+
+.footer{
+    margin-top: 200px;
+    background-color: #ddd;
+    color: #474e5d;
+}
+
+.col-footer{
+    padding: 40px;
+    
+}
+
+.col-footer1{
+    padding: 40px; 
+}
+
+.col-footer2{
+    
+    padding: 40px;
+}
+
+
+/*----COVID-19 CSS-----*/
+
+/*------How is the virus transmitted?----*/
+
+.virus-trans1{
+    margin-top: 60px; 
+}
+
+.virus-trans1 img{
+    border-radius: 60px 120px;
+    border: 8px solid #555;
+    padding: 10px;
+    transition: all 0.6s ease-in-out 0s;
+    
+}
+
+
+.virus-trans1 img:hover{
+    transition: all 0.6s ease-in-out 0s;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+}
+
+
+.virus-trans2{
+    margin-top: 60px;
+    padding: 20px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    line-height: 30px;
+    font-size: 18px;
+    
+}
+
+#h2-virus-trans2{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    color: #2E4A62;
+    text-shadow: 2px 2px 5px grey;
+    font-weight: bolder;
+}
+
+
+.virus-trans3{
+    margin-top: 60px;
+    padding: 20px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    line-height: 30px;
+    font-size: 18px;
+}
+
+.virus-trans4{
+    margin-top: 60px;
+}
+
+
+.virus-trans4 img{
+    border-radius: 60px 120px;
+    border: 8px solid #555;
+    padding: 10px;
+    transition: all 0.6s ease-in-out 0s;
+}
+
+.virus-trans4 img:hover{
+    transition: all 0.6s ease-in-out 0s;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+}
+
+.virus-trans5{
+    margin-top: 60px;
+}
+
+.virus-trans5 img{
+    border-radius: 60px 120px;
+    border: 8px solid #555;
+    padding: 10px;
+    transition: all 0.6s ease-in-out 0s;
+}
+
+.virus-trans5 img:hover{
+    transition: all 0.6s ease-in-out 0s;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+}
+
+.virus-trans6{
+    margin-top: 60px;
+    padding: 20px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    line-height: 30px;
+    font-size: 18px;
+}
+
+.col-prevent1{
+    margin-top: 60px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+}
+
+#h4-prevent2{
+    color: rgba(28, 30, 156, 0.507);
+    text-shadow: 2px 2px 5px grey;
+    padding-top: 40px;
+    font-weight: bolder;
+}
+
+#h2-prevent2{
+    color: #2E4A62;
+    text-shadow: 2px 2px 5px grey;
+    font-weight: bolder;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.col-prevent2{
+    margin-top: 60px;
+}
+
+.collapsible{
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    border: none;
+    width: 100%;
+    text-align: left;
+    outline: none;
+    font-size: 18px;
+
+}
+
+.active, .collapsible:hover{
+    background-color: #555;
+}
+
+.active, .collapsible:hover{
+    background-color: #555;
+}
+
+.collapsible::after{
+    content: '\002B';
+    color: white;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.active::after{
+    content: '\2212';
+}
+
+.content1{
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #f1f1f1;
+ 
+ }
+ 

@@ -1,0 +1,262 @@
+/*Help*/
+
+.col-help{
+    background-color:#006E6D;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
+}
+
+/*Navigation*/
+
+.navigation{
+    background-color: white;
+   
+}
+
+
+.statistics{
+    color: red;
+    font-weight: bolder;
+}
+
+
+.stat-dropdown{
+    width: 210px;   
+}
+
+.stat-menu:hover{
+    background-color: #88B04B;
+    color: white;
+    border-bottom: 1px solid #006E6D;   
+}
+
+.menu{
+    color: #bbb;
+}
+
+/*------------Breadcrumb---------------*/
+
+.bread{
+    text-align: center;
+    margin: 5px;
+  }
+  
+  .bread-item{
+      display: inline-block;
+      font-size: 17px;
+  }
+      
+  
+  .bread-item:not(:last-of-type)::after{
+      content: '\203a';
+      margin: 0 5px;
+  }
+  
+  .bread-link{
+      color: #bbb;
+  }
+  
+  .bread-link-active{
+      color: #32CD32;
+      font-weight: bold;
+  }
+  
+
+/*------------Isalamabad Photo---------------*/
+
+.hero-img{
+    background-image: linear-gradient(rgba(44, 42, 42, 0.5),rgba(138, 134, 134, 0.5)), 
+    url(photo/2.jpg);
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    position: relative;    
+    vertical-align: middle;
+}
+
+.hero-img .content{
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 60%;
+  padding: 45px;
+  
+  padding-top: 85px;
+}
+
+
+
+/*Main Heading -- Precautions*/
+
+/*----------------Precaution------------*/
+
+
+#h4-pre{
+    color: rgba(28, 30, 156, 0.507);
+    text-shadow: 2px 2px 5px grey;
+    text-align: center;
+    padding-top: 40px;
+    font-weight: bolder;
+}
+
+
+
+.col-precaution{
+    margin: 40px;
+    color: white;
+    background-color: #FF6F61;   
+    border-radius: 50px 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.col-precaution1{
+    margin: 40px;
+    color: white;
+    background-color: #00BFFF;   
+    border-radius: 50px 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+#h1-pre{
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+   
+}
+
+
+/*<!--FIGHT CORONA VIRUS-->*/
+
+/*<!--FIGHT CORONA VIRUS BOXES-->*/
+
+.col-fight{
+    
+    margin: 45px;
+    background-color: #EADEDB;
+    text-align: center;
+    padding: 20px;
+    border-radius: 50px 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: rgb(67, 104, 136);
+}
+
+#img-fight{
+    padding-bottom: 10px;
+    border-radius: 50px 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+/*<!--How to prepare staying at home-->*/
+
+
+.col-head{
+    background-color: #009B77;
+    padding: 20px;
+    color: white;
+    font-weight: bolder;
+    border-radius: 50px 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    
+}
+
+.col-clean{
+    background-color: #45B8AC;
+    border-radius: 50px 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    color: black;
+    margin: 45px;
+
+}
+
+.col-head1{
+    background-color: #FF6F61;
+    padding: 20px;
+    color: white;
+    font-weight: bolder;
+    border-radius: 50px 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    
+}
+
+.col-clean1{
+    background-color: #EC9787;
+    color: black;
+    margin: 45px;
+    border-radius: 50px 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+
+/*<!--Food / Necessities-->*/
+
+.btn-display{
+    width: 100%;
+    border: none;
+    padding: 20px;
+    background-color: #2A4B7C;
+    color: #ddd;
+    font-size: 22px;
+    font-weight: bolder;
+
+}
+
+
+
+#h3-food{
+    padding-top: 20px;
+    text-shadow: 0px 2px 3px #3F69AA;
+}
+
+#h5-food{
+    padding-top: 10px;
+    
+}
+
+#p-food{
+    font-size: 17px;
+}
+
+#p-food:hover{
+    transition: all 0.6s ease-in-out 0s;
+    background-color: #555;
+    color: #ddd;
+    padding: 40px;
+}
+
+
+
+/*---------------------Footer----------*/
+
+
+.footer{
+    margin-top: 200px;
+    background-color: #ddd;
+    color: #474e5d;
+}
+
+.col-footer{
+    padding: 40px;
+    
+}
+
+.col-footer1{
+    padding: 40px; 
+}
+
+.col-footer2{
+    
+    padding: 40px;
+}
