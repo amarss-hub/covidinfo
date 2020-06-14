@@ -106,7 +106,7 @@
 
 .covid-img{
     position: absolute;
-    right: 50px;
+    right: 10px;
     top: 10px;
     z-index: -1;
 }
