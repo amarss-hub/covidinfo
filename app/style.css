@@ -112,7 +112,7 @@
 }
 
 .counter-count{
-    font-size: 110px;
+    font-size: 90px;
     letter-spacing: 5px;
     font-weight: bolder;
     color: #2E4A62;
@@ -120,8 +120,9 @@
 
 .btn{
     border: none;
-    outline: 0;
+    margin: 10px;
     display: inline-block;
+    outline: 0;
     padding: 10px 25px;
     color: white;
     background-color: #4CAF50;
@@ -134,19 +135,24 @@
 .data{
     color: #9F9C99;
     font-weight: bolder;
-    font-size: 20px;
+    font-size: 15px;
 }
+
+.data1{
+    font-size: 15px;
+}
+
 
 #death{
     color: red;
     font-weight: bolder;
     
-    font-size: 20px;
+    font-size: 15px;
 }
 
 #recover{
     font-weight: bolder;
-    font-size: 20px;
+    font-size: 15px;
     color: green;
 
 }
